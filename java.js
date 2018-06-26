@@ -8,7 +8,7 @@ $(document).ready(function() {
         newButton.html(giph)
         newButton.attr("data-name", giph)
         newButton.attr("id","giphButton")
-        newButton.attr("class","btn btn-secondary")
+        newButton.attr("class","btn btn-light")
         $("#buttonsView").append(newButton)
     })
     $(document).on("click","#giphButton", function(){
