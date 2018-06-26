@@ -1,12 +1,13 @@
 #topRow{
     height:75px;
+border-bottom: 3px slategrey solid;
 }
 body{
-    background-color: black;
+    background-color: midnightblue;
 }
 h1{
-    color:blue;
+    color:white;
 }
 #text{
-    color: blue;
+    color: white;
 }
