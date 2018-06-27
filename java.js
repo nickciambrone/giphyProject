@@ -13,7 +13,7 @@ $(document).ready(function () {
         $("#buttonsView").append(newButton);
     })
     $(document).on("click", "#giphButton", function () {
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + $(this).attr("data-name") + "&api_key=pIxkE9zbh9PH76QzayHygh7qcIZrvD5Q&limit=5"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).attr("data-name") + "&api_key=pIxkE9zbh9PH76QzayHygh7qcIZrvD5Q&limit=5"
         console.log($(this).attr("data-name"))
         console.log(queryURL)
         $.ajax({
